@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{FD1C7520-4EAE-0A29-DFC0-77A652C65F9C}") = "unitytankgame", "Assembly-CSharp-vs.csproj", "{4D28145A-040B-5989-2E1D-36A641DA76CC}"
+Project("{953A91D3-6DC5-DF26-4037-ED59DF4B233B}") = "UnityTankGame", "Assembly-CSharp-vs.csproj", "{3EFBC32A-DD5D-D7E7-8573-CFFD59E70688}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D28145A-040B-5989-2E1D-36A641DA76CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D28145A-040B-5989-2E1D-36A641DA76CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D28145A-040B-5989-2E1D-36A641DA76CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D28145A-040B-5989-2E1D-36A641DA76CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFBC32A-DD5D-D7E7-8573-CFFD59E70688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFBC32A-DD5D-D7E7-8573-CFFD59E70688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFBC32A-DD5D-D7E7-8573-CFFD59E70688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFBC32A-DD5D-D7E7-8573-CFFD59E70688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-										GlobalSection(MonoDevelopProperties) = preSolution
+																								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -4,7 +4,8 @@ using System.Collections;
 public class MoveBullet : MonoBehaviour {
 	public float speed;
 	private float lifeTime = 0f;
-		public float maxLifeTime;
+	public float maxLifeTime;
+	public GameObject explosionPrefab;
 	// Use this for initialization
 	void Start () {
 	
@@ -25,6 +26,9 @@ public class MoveBullet : MonoBehaviour {
 
 	void OnCollisionEnter(Collision coll)
 	{
-		print ("raalt iets" + coll.gameObject.name);
+		//print ("raakt iets" + coll.gameObject.name);
+		Instantiate (explosionPrefab, this.transform.position, this.transform.rotation);
+
+		Destroy (this.gameObject);
 	}
 }
